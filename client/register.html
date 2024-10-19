@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://kit.fontawesome.com/c206cd2e16.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Expense Tacker</h1>
+        </nav>
+    </header>
+    <main>
+        <form id="registerform">
+            <h3>Register</h3>
+        <span>
+            <i class="fa-solid fa-envelope"></i>
+            <label for="email">Email:</label>
+        </span>
+            <input type="email" name="email" id="email" required>
+         <span>
+            <i class="fa-solid fa-user"></i>
+            <label for="username">Username:</label>
+        </span>
+            <input type="text" name="username" id="username" required>
+        <span>
+            <i class="fa-solid fa-lock"></i>
+            <label for="password">Password:</label>
+        </span>
+            <input type="password" name="password" id="password" required>
+
+            <button type="submit">Register</button>
+            <div id="register-msg"></div>
+
+            <p>Already have an account?<a href="login.html">Login</a></p>
+
+
+        </form>
+    </main>
+    <script type="module" src="./js/register.js"></script>
+
+</body>
+</html>

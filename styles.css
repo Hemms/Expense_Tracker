@@ -1,0 +1,67 @@
+body{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(216,95,201,255);
+    align-items: center;
+    color: whitesmoke;
+}
+header{
+    position: fixed;
+    top: 0;
+    color: whitesmoke;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+
+}
+h3{
+text-align: center;
+color: whitesmoke;
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    
+}
+button{
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(166,214,221,255);
+    color: rgba(153,35,178,255);
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+
+}
+#login-msg{
+    color: green;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+#register-msg{
+    font-weight: bold;
+    color: green;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker - Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-image: url("./img/background.jpg");
+            display: flex;
+            min-height: 100vh;
+            background-color: whitesmoke;
+            color: navy;
+        }
+
+        /* Sidebar styles */
+        .sidebar {
+            width: 250px;
+            background-color: navy;
+            color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+        }
+
+        .sidebar img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        .sidebar a {
+            color: whitesmoke;
+            text-decoration: none;
+            margin: 10px 0;
+            padding: 10px 20px;
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        .sidebar a:hover {
+            background-color: whitesmoke;
+            color: navy;
+        }
+
+        .sidebar .logout,
+        .sidebar .settings {
+            margin-top: auto;
+            margin-bottom: 20px;
+        }
+
+        /* Main content area */
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        .navbar {
+            background-color: navy;
+            color: whitesmoke;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar h1 {
+            font-size: 1.5rem;
+        }
+
+        .navbar nav a {
+            color: whitesmoke;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+        }
+
+        .navbar nav a:hover {
+            text-decoration: underline;
+        }
+
+        .welcome-message {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 1.8rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <img src="./img/logo.PNG" alt="Profile Picture" />
+        <a href="#">Profile</a>
+        <a href="#">Settings</a>
+        <a href="#">Logout</a>
+    </div>
+
+    <!-- Main content -->
+    <div class="main-content">
+        <!-- Navbar -->
+        <div class="navbar">
+            <h1>Expense Tracker</h1>
+            <nav>
+                <a href="./view.html">View Expenses</a>
+                <a href="./add.html">Add Expense</a>
+                <a href="./transact.html">History</a>
+                <a href="./home.html">Home</a>
+                <a href="./login.html">Login</a>
+                <a href="./register.html">Register</a>
+            </nav>
+        </div>
+
+        <!-- Welcome message -->
+        <div class="welcome-message">
+            <p>Welcome to the Expense Tracker Application! Manage your finances easily and efficiently.</p>
+        </div>
+    </div>
+</body>
+
+</html>

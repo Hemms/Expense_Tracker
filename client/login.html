@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://kit.fontawesome.com/c206cd2e16.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+             <h1>Expense Tracker</h1>
+        </nav>
+    </header>
+    <main>
+    <form id="loginform">
+  
+        <h3>Login</h3>
+    
+        <span>
+        <i class="fa-solid fa-user"></i>
+        <label for="username">Username:</label>
+         </span>
+        <input type="text" id="username" name="username" required>
+    <span>
+    <i class="fa-solid fa-lock"></i>
+        <label for="password">Password:</label>
+    </span>
+        <input type="password" id="password" name="password" required> 
+
+        <button type="submit">Login</button> 
+        <div id="login-msg"></div>
+
+        <p>Forgot Password?<a href="#">Reset</a></p>
+
+        <p>Don't Have an Account?<a href="register.html">Register</a></p>
+
+    </form>
+</main>
+<script type="module" src="./js/login.js"></script>
+
+</body>
+</html>

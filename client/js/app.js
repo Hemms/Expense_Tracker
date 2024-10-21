@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const token = sessionStorage.getItem('token');
 
     if (!token) {
-        window.location.replace('login.html');
+        window.location.replace('index.html');
     } else {
         fetchExpenses();
     }

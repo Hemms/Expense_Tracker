@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     registerMsg.textContent = 'Registration successful 😊';
 
                     setTimeout(() => {
-                        window.location.href = 'login.html';
+                        window.location.href = 'index.html';
                     }, 1000);
                 }
 
